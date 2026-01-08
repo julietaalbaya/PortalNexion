@@ -1,11 +1,16 @@
 import { Link, useLocation } from 'react-router-dom'
 import './Sidebar.css'
 
-function Sidebar() {
+function Sidebar({ user, onLogout }) {
   const location = useLocation();
 
   const isActive = (path) => {
     return location.pathname === path ? 'active' : '';
+  };
+
+  const getInitials = (nombre) => {
+    const names = nombre.split(' ');
+    return names.map(n => n.charAt(0)).join('').substring(0, 2).toUpperCase();
   };
 
   return (
@@ -39,12 +44,15 @@ function Sidebar() {
 
       <div className="sidebar-footer">
         <div className="user-info">
-          <div className="user-avatar">JP</div>
+          <div className="user-avatar">{getInitials(user.nombre)}</div>
           <div className="user-details">
-            <p className="user-name">Juan Pérez</p>
-            <p className="user-email">juan.perez@example.com</p>
+            <p className="user-name">{user.nombre}</p>
+            <p className="user-email">{user.email}</p>
           </div>
         </div>
+        <button className="btn-logout" onClick={onLogout}>
+          <span>🚪</span> Cerrar Sesión
+        </button>
       </div>
     </aside>
   )
