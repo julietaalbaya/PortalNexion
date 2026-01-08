@@ -1,0 +1,100 @@
+.dashboard {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dashboard-section {
+  margin-top: 2rem;
+}
+
+.dashboard-section h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.movimientos-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+
+.movimiento-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.movimiento-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.movimiento-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.movimiento-tipo {
+  font-size: 1.8rem;
+  padding: 0.5rem;
+  background: #f0f0f0;
+  border-radius: 8px;
+}
+
+.movimiento-fecha {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.movimiento-body {
+  margin-bottom: 1rem;
+}
+
+.movimiento-descripcion {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.movimiento-monto {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.movimiento-monto.negativo {
+  color: #e74c3c;
+}
+
+.movimiento-monto.positivo {
+  color: #27ae60;
+}
+
+.movimiento-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.estado {
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  background: #d4edda;
+  color: #155724;
+}

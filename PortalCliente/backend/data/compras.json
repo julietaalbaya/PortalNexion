@@ -1,0 +1,64 @@
+{
+  "compras": [
+    {
+      "id": 1,
+      "fecha": "2026-01-05",
+      "producto": "Laptop Dell XPS 15",
+      "categoria": "Electrónica",
+      "precio": 1299.99,
+      "cantidad": 1,
+      "total": 1299.99,
+      "estado": "Entregado"
+    },
+    {
+      "id": 2,
+      "fecha": "2025-12-28",
+      "producto": "Teclado mecánico",
+      "categoria": "Accesorios",
+      "precio": 149.99,
+      "cantidad": 1,
+      "total": 149.99,
+      "estado": "Entregado"
+    },
+    {
+      "id": 3,
+      "fecha": "2025-12-25",
+      "producto": "Monitor LG 27 pulgadas",
+      "categoria": "Electrónica",
+      "precio": 349.99,
+      "cantidad": 1,
+      "total": 349.99,
+      "estado": "Entregado"
+    },
+    {
+      "id": 4,
+      "fecha": "2025-12-20",
+      "producto": "Mouse inalámbrico Logitech",
+      "categoria": "Accesorios",
+      "precio": 29.99,
+      "cantidad": 2,
+      "total": 59.98,
+      "estado": "Entregado"
+    },
+    {
+      "id": 5,
+      "fecha": "2025-12-15",
+      "producto": "Webcam HD",
+      "categoria": "Accesorios",
+      "precio": 79.99,
+      "cantidad": 1,
+      "total": 79.99,
+      "estado": "Entregado"
+    },
+    {
+      "id": 6,
+      "fecha": "2025-12-10",
+      "producto": "Audífonos Sony WH-1000XM4",
+      "categoria": "Audio",
+      "precio": 349.99,
+      "cantidad": 1,
+      "total": 349.99,
+      "estado": "Entregado"
+    }
+  ]
+}

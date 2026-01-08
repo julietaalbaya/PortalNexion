@@ -1,0 +1,25 @@
+{
+  "usuario": {
+    "id": "USR-2024-001",
+    "nombre": "Juan",
+    "apellido": "Pérez García",
+    "email": "juan.perez@example.com",
+    "telefono": "+54 9 11 1234-5678",
+    "fechaNacimiento": "1985-03-15",
+    "documento": {
+      "tipo": "DNI",
+      "numero": "12345678"
+    },
+    "direccion": {
+      "calle": "Av. Corrientes",
+      "numero": "1234",
+      "piso": "5",
+      "depto": "B",
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "codigoPostal": "C1043"
+    },
+    "fechaRegistro": "2023-05-20",
+    "categoria": "Premium"
+  }
+}

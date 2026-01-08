@@ -1,0 +1,44 @@
+{
+  "movimientos": [
+    {
+      "id": 1,
+      "fecha": "2026-01-05",
+      "tipo": "compra",
+      "descripcion": "Laptop Dell XPS 15",
+      "monto": -1299.99,
+      "estado": "completado"
+    },
+    {
+      "id": 2,
+      "fecha": "2026-01-03",
+      "tipo": "pago",
+      "descripcion": "Pago de factura #1234",
+      "monto": -450.00,
+      "estado": "completado"
+    },
+    {
+      "id": 3,
+      "fecha": "2026-01-01",
+      "tipo": "devolucion",
+      "descripcion": "Devolución Mouse inalámbrico",
+      "monto": 29.99,
+      "estado": "completado"
+    },
+    {
+      "id": 4,
+      "fecha": "2025-12-28",
+      "tipo": "compra",
+      "descripcion": "Teclado mecánico",
+      "monto": -149.99,
+      "estado": "completado"
+    },
+    {
+      "id": 5,
+      "fecha": "2025-12-25",
+      "tipo": "compra",
+      "descripcion": "Monitor LG 27 pulgadas",
+      "monto": -349.99,
+      "estado": "completado"
+    }
+  ]
+}

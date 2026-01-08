@@ -1,0 +1,16 @@
+{
+  "resumen": {
+    "saldoTotal": 2450.75,
+    "creditoDisponible": 5000.00,
+    "creditoUtilizado": 2549.25,
+    "proximoVencimiento": {
+      "fecha": "2026-02-15",
+      "monto": 450.00
+    },
+    "estadisticas": {
+      "comprasEsteMes": 1449.99,
+      "comprasMesAnterior": 939.94,
+      "promedioCompra": 329.99
+    }
+  }
+}
